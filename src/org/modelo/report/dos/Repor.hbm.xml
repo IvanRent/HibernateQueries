@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 26-jul-2019 0:00:11 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="org.modelo.report.dos.Repor" table="REPOR">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="tipo" type="java.lang.String">
+            <column name="TIPO" />
+        </property>
+        <property name="folio" type="java.lang.String">
+            <column name="FOLIO" />
+        </property>
+        <property name="comentario" type="java.lang.String">
+            <column name="COMENTARIO" />
+        </property>
+    </class>
+</hibernate-mapping>
